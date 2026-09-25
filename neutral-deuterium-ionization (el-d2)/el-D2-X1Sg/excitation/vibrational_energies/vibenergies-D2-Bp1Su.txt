@@ -1,0 +1,19 @@
+# MCCC calculations of D2 vibrational energy levels
+# Reference: Scarlett et al., Atom. Data Nucl. Data Tables (2021)
+# MCCC Database: mccc-db.org
+# This file: vibrational level energies for the Bp1Su electronic state of D2
+# v    Energy (Hartrees)  Energy (eV)
+  0   -0.66254           -18.02870
+  1   -0.65631           -17.85910
+  2   -0.65044           -17.69940
+  3   -0.64495           -17.55000
+  4   -0.63988           -17.41210
+  5   -0.63530           -17.28730
+  6   -0.63130           -17.17860
+  7   -0.62811           -17.09180
+  8   -0.62627           -17.04170
+  9   -0.62588           -17.03110
+ 10   -0.62554           -17.02180
+ 11   -0.62529           -17.01510
+ 12   -0.62512           -17.01050
+ 13   -0.62501           -17.00750

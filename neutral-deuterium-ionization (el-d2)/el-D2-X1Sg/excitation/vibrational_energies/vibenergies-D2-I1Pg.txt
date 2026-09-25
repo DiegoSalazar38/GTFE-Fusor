@@ -1,0 +1,17 @@
+# MCCC calculations of D2 vibrational energy levels
+# Reference: Scarlett et al., Atom. Data Nucl. Data Tables (2021)
+# MCCC Database: mccc-db.org
+# This file: vibrational level energies for the I1Pg electronic state of D2
+# v    Energy (Hartrees)  Energy (eV)  *** Asterisks denote wave functions located in the outer well ***
+  0   -0.65591           -17.84820
+  1   -0.64896           -17.65920
+  2   -0.64236           -17.47960
+  3   -0.63613           -17.31000
+  4   -0.63029           -17.15120
+  5   -0.62563           -17.02420 *
+  6   -0.62535           -17.01660 *
+  7   -0.62518           -17.01200 *
+  8   -0.62508           -17.00940 *
+  9   -0.62503           -17.00810 *
+ 10   -0.62501           -17.00750 *
+ 11   -0.62500           -17.00720 *

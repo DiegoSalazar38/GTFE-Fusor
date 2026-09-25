@@ -1,0 +1,11 @@
+# MCCC calculations of D2 vibrational energy levels
+# Reference: Scarlett et al., Atom. Data Nucl. Data Tables (2021)
+# MCCC Database: mccc-db.org
+# This file: vibrational level energies for the h3Sg electronic state of D2
+# v    Energy (Hartrees)  Energy (eV)
+  0   -0.65721           -17.88360
+  1   -0.65059           -17.70350
+  2   -0.64421           -17.52980
+  3   -0.63815           -17.36480
+  4   -0.63246           -17.21010
+  5   -0.62717           -17.06630

@@ -1,0 +1,24 @@
+# Analytic fits to MCCC calculations of electron scattering on molecular hydrogen and its isotopologues
+# Adiabatic nuclei calculations performed with the spheroidal MCCC(210) model
+# Reference: Scarlett et al. Atom. Data Nucl. Data Tables (2021)
+# MCCC Database: mccc-db.org
+# This file: e + D2(X1Sg,vi=0) -> e + D2(I1Pg) all bound vf + dissociative excitation (DE)
+#
+# Fitting function: |(x-1)/x * (a0^2*log(x)/x + a1/x + a2/x^2 + a3/x^3 + a4/x^4 + a5/x^5)|
+#                   where x = energy / threshold_energy
+# Yields integrated cross section in atomic units
+
+# vf    vi  threshold (eV)   a0            a1            a2            a3            a4            a5
+   0 <-  0  1.39189E+01    3.22880E-02   2.68880E-04   2.30620E-02  -6.33660E-02   8.76860E-02  -4.74180E-02
+   1 <-  0  1.41080E+01    4.50620E-02   2.05310E-03   4.82720E-02  -1.31930E-01   1.76190E-01  -9.47240E-02
+   2 <-  0  1.42876E+01    4.43410E-02   5.63960E-03   5.34570E-02  -1.45560E-01   1.84480E-01  -9.87820E-02
+   3 <-  0  1.44571E+01    3.66950E-02   8.48690E-03   4.54470E-02  -1.23300E-01   1.44570E-01  -7.65450E-02
+   4 <-  0  1.46160E+01    2.80140E-02   9.20780E-03   3.51020E-02  -9.46310E-02   1.00840E-01  -5.21870E-02
+   5 <-  0  1.47430E+01    1.48590E-08   5.23380E-15   1.49800E-14  -4.00300E-14   3.84440E-14  -1.95690E-14
+   6 <-  0  1.47505E+01    4.50020E-08   5.04080E-14   1.41980E-13  -3.79120E-13   3.61570E-13  -1.83910E-13
+   7 <-  0  1.47552E+01    8.65800E-08   1.92440E-13   5.36730E-13  -1.43250E-12   1.36030E-12  -6.91550E-13
+   8 <-  0  1.47578E+01    1.22500E-07   3.91640E-13   1.08670E-12  -2.89930E-12   2.74650E-12  -1.39590E-12
+   9 <-  0  1.47591E+01    1.32250E-07   4.60610E-13   1.27450E-12  -3.40010E-12   3.21700E-12  -1.63480E-12
+  10 <-  0  1.47597E+01    1.10430E-07   3.23240E-13   8.92740E-13  -2.38190E-12   2.25210E-12  -1.14440E-12
+  11 <-  0  1.47599E+01    8.37410E-08   1.65470E-13   4.69420E-13  -1.24150E-12   1.17890E-12  -6.01740E-13
+  DE <-  0  1.47600E+01    1.89040E-06   4.42870E-02   5.91640E-02  -1.15820E-01   4.69090E-02  -4.86160E-02

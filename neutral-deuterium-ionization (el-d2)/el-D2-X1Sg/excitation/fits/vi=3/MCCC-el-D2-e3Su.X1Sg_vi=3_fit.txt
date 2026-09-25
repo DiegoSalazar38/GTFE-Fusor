@@ -1,0 +1,24 @@
+# Analytic fits to MCCC calculations of electron scattering on molecular hydrogen and its isotopologues
+# Adiabatic nuclei calculations performed with the spheroidal MCCC(210) model
+# Reference: Scarlett et al. Atom. Data Nucl. Data Tables (2021)
+# MCCC Database: mccc-db.org
+# This file: e + D2(X1Sg,vi=3) -> e + D2(e3Su) all bound vf + dissociative excitation (DE)
+#
+# Fitting function: |(x-1)/x * (a0^2/x + a1/x^2 + a2/x^3 + a3/x^4 + a4/x^5)|
+#                   where x = energy / threshold_energy
+# Yields integrated cross section in atomic units
+
+# vf    vi  threshold (eV)   a0            a1            a2            a3            a4
+   0 <-  3  1.21957E+01    6.78360E-02  -8.02740E-02   6.48070E-01  -1.03890E+00   7.77460E-01
+   1 <-  3  1.23803E+01    1.43480E-02  -3.58510E-03   4.04900E-02  -5.74250E-02   4.67760E-02
+   2 <-  3  1.25567E+01    2.64400E-02  -1.21990E-02   8.68090E-02  -1.48760E-01   1.10380E-01
+   3 <-  3  1.27246E+01    4.66600E-02  -3.78010E-02   2.66180E-01  -4.57060E-01   3.36770E-01
+   4 <-  3  1.28839E+01    4.06630E-02  -2.86670E-02   2.00300E-01  -3.46510E-01   2.56150E-01
+   5 <-  3  1.30345E+01    2.28730E-02  -9.06030E-03   6.20080E-02  -1.08820E-01   8.02900E-02
+   6 <-  3  1.31758E+01    2.68000E-03  -1.25250E-04   7.99030E-04  -1.49890E-03   1.07620E-03
+   7 <-  3  1.33071E+01    1.51220E-02  -3.90920E-03   2.55020E-02  -4.49190E-02   3.27880E-02
+   8 <-  3  1.34275E+01    2.55970E-02  -1.12180E-02   7.33810E-02  -1.30300E-01   9.60080E-02
+   9 <-  3  1.35352E+01    3.21030E-02  -1.75700E-02   1.11540E-01  -2.00360E-01   1.45920E-01
+  10 <-  3  1.36270E+01    3.31270E-02  -1.86410E-02   1.15850E-01  -2.09690E-01   1.51460E-01
+  11 <-  3  1.36902E+01    7.05850E-07  -8.44270E-12   5.18000E-11  -9.41740E-11   6.76960E-11
+  DE <-  3  1.36903E+01    7.63940E-06   1.46990E-01  -1.12810E+00   3.72610E+00  -2.75900E+00
